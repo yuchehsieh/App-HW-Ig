@@ -94,7 +94,8 @@ const styles = StyleSheet.create({
         marginTop: 10,
     },
     messageIcon: {
-        width: 22,
+        width: 24,
+        height: 24,
     },
     tagIcon: {
         width: 22,

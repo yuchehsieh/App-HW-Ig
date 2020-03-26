@@ -25,7 +25,7 @@ export default function App() {
                             <TouchableOpacity
                                 onPress={() => rootNavigationRef.current?.navigate('MessageListScreen')}>
                                 <Image source={require('./assets/Icons/Message.png')}
-                                       style={{marginRight: 15, marginBottom: 5}}/>
+                                       style={styles.messageIcon}/>
                             </TouchableOpacity>
                         )
                     }
@@ -72,5 +72,11 @@ const styles = StyleSheet.create({
     row: {
         flexDirection: 'row',
         paddingRight: 15,
+    },
+    messageIcon: {
+        marginRight: 15,
+        marginBottom: 5,
+        width: 24,
+        height: 24,
     }
 });
