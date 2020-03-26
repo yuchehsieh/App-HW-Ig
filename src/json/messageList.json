@@ -1,0 +1,50 @@
+[
+  {
+    "id": "01",
+    "name": "prisionbreak",
+    "avatarUrl": "https://github.com/yuchehsieh/App-HW-Ig/blob/master/assets/Posts/prisionbreak.png?raw=true",
+    "activeMessage": "Active 5h ago"
+  },
+  {
+    "id": "02",
+    "name": "avamax",
+    "avatarUrl": "https://github.com/yuchehsieh/App-HW-Ig/blob/master/assets/Posts/avamax.png?raw=true",
+    "activeMessage": "Liked a message．4d"
+  },
+  {
+    "id": "03",
+    "name": "therock",
+    "avatarUrl": "https://github.com/yuchehsieh/App-HW-Ig/blob/master/assets/Posts/therock.png?raw=true",
+    "activeMessage": "Mentioned you in their story．2w"
+  },
+  {
+    "id": "04",
+    "name": "alexandradaddario",
+    "avatarUrl": "https://github.com/yuchehsieh/App-HW-Ig/blob/master/assets/Messages/alexandradaddario.png?raw=true",
+    "activeMessage": "Active today"
+  },
+  {
+    "id": "05",
+    "name": "annemarie",
+    "avatarUrl": "https://github.com/yuchehsieh/App-HW-Ig/blob/master/assets/Messages/annemarie.png?raw=true",
+    "activeMessage": "You replied annemarie's story...．12w"
+  },
+  {
+    "id": "06",
+    "name": "arts_helps",
+    "avatarUrl": "https://github.com/yuchehsieh/App-HW-Ig/blob/master/assets/Messages/arts_helps.png?raw=true",
+    "activeMessage": "😂．12d"
+  },
+  {
+    "id": "07",
+    "name": "robertdowneyjr",
+    "avatarUrl": "https://github.com/yuchehsieh/App-HW-Ig/blob/master/assets/Messages/robertdowneyjr.png?raw=true",
+    "activeMessage": "Liked a message．12h"
+  },
+  {
+    "id": "08",
+    "name": "deborahannwoll",
+    "avatarUrl": "https://github.com/yuchehsieh/App-HW-Ig/blob/master/assets/Messages/deborahannwoll.png?raw=true",
+    "activeMessage": "You: Good．2w"
+  }
+]

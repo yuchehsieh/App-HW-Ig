@@ -1,0 +1,57 @@
+[
+  {
+    "id": "01",
+    "name": "therock",
+    "likesCount": "985,684",
+    "content": [
+      {
+        "type": "normal",
+        "text": " Long week. 1am. Quiet time "
+      },
+      {
+        "type": "link",
+        "text": "@teremana"
+      },
+      {
+        "type": "BodyText_Type.NORMAL",
+        "text": "🥃 with brioche french toast smuthaad with peanut butter, jelly and maple syrup.\n Stay healthy and positive, my friends."
+      }
+    ],
+    "avatarUrl": "https://github.com/yuchehsieh/App-HW-Ig/blob/master/assets/Posts/therock.png?raw=true",
+    "contentImageUrl": "https://github.com/yuchehsieh/App-HW-Ig/blob/master/assets/Posts/therock_post.png?raw=true"
+  },
+  {
+    "id": "02",
+    "name": "avamax",
+    "likesCount": "57,467",
+    "content": [
+      {
+        "type": "normal",
+        "text": " Long week. 1am. Quiet timeThrowback to sunny days ☀️"
+      }
+    ],
+    "avatarUrl": "https://github.com/yuchehsieh/App-HW-Ig/blob/master/assets/Posts/avamax.png?raw=true",
+    "contentImageUrl": "https://github.com/yuchehsieh/App-HW-Ig/blob/master/assets/Posts/avamax_post.png?raw=true"
+  },
+  {
+    "id": "03",
+    "name": "prisionbreak",
+    "likesCount": "93,422",
+    "content": [
+      {
+        "type": "normal",
+        "text": " First, it was a prison. Now, it's a nation.\n The"
+      },
+      {
+        "type": "link",
+        "text": "#PrisonBreak"
+      },
+      {
+        "type": "normal",
+        "text": " Event Series is available on Blu-ray, DVD and Digital HD."
+      }
+    ],
+    "avatarUrl": "https://github.com/yuchehsieh/App-HW-Ig/blob/master/assets/Posts/prisionbreak.png?raw=true",
+    "contentImageUrl": "https://github.com/yuchehsieh/App-HW-Ig/blob/master/assets/Posts/prisionbreak_post.png?raw=true"
+  }
+]
