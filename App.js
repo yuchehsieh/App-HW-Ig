@@ -12,19 +12,22 @@ import Ionicons from '@expo/vector-icons/Ionicons';
 const RootStack = createStackNavigator();
 const rootNavigationRef = React.createRef();
 
+const InstagramImageUrl = 'https://github.com/yuchehsieh/App-HW-Ig/blob/master/assets/Instagram.png?raw=true';
+const CameraIconUrl = 'https://github.com/yuchehsieh/App-HW-Ig/blob/master/assets/Icons/Camera.png?raw=true';
+const MessageIconUrl = 'https://github.com/yuchehsieh/App-HW-Ig/blob/master/assets/Icons/Message.png?raw=true';
+
 export default function App() {
     return (
         <NavigationContainer ref={rootNavigationRef}>
             <RootStack.Navigator>
                 <RootStack.Screen name="PostListScreen" component={PostListScreen} options={{
-                    headerLeft: () => <Image source={require('./assets/Icons/Camera.png')}
-                                             style={{marginLeft: 15, marginBottom: 5}}/>,
-                    headerTitle: () => <Image source={require('./assets/Instagram.png')} style={{width: 100}}/>,
+                    headerLeft: () => <Image source={{uri: CameraIconUrl}} style={styles.cameraIcon}/>,
+                    headerTitle: () => <Image source={{uri: InstagramImageUrl}} style={styles.InstagramImage}/>,
                     headerRight: () => {
                         return (
                             <TouchableOpacity
                                 onPress={() => rootNavigationRef.current?.navigate('MessageListScreen')}>
-                                <Image source={require('./assets/Icons/Message.png')}
+                                <Image source={{uri: MessageIconUrl}}
                                        style={styles.messageIcon}/>
                             </TouchableOpacity>
                         )
@@ -78,5 +81,15 @@ const styles = StyleSheet.create({
         marginBottom: 5,
         width: 24,
         height: 24,
+    },
+    cameraIcon: {
+        marginLeft: 15,
+        marginBottom: 5,
+        width: 24,
+        height: 24
+    },
+    InstagramImage: {
+        width: 110,
+        height: 40
     }
 });

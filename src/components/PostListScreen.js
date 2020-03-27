@@ -7,6 +7,9 @@ import PostData from '../json/posts';
 const screenWidth = Math.round(Dimensions.get('window').width);
 const screenHeight = Math.round(Dimensions.get('window').height);
 
+const MessageIconUrl = 'https://github.com/yuchehsieh/App-HW-Ig/blob/master/assets/Icons/Message.png?raw=true';
+const TagIconUrl = 'https://github.com/yuchehsieh/App-HW-Ig/blob/master/assets/Icons/Tag.png?raw=true';
+
 const RenderItem = ({name, likesCount, content, contentImageUrl, avatarUrl, id}) => {
     return (
         <View style={{marginBottom: 30}} key={id}>
@@ -22,9 +25,9 @@ const RenderItem = ({name, likesCount, content, contentImageUrl, avatarUrl, id})
                 <View style={{...styles.row, marginTop: 10}}>
                     <Ionicons name="md-heart-empty" size={24} style={{marginRight: 10}}/>
                     <EvilIcons name="comment" size={30} style={{marginRight: 10}}/>
-                    <Image source={require('../../assets/Icons/Message.png')} style={styles.messageIcon}/>
+                    <Image source={{uri: MessageIconUrl}} style={styles.messageIcon}/>
                 </View>
-                <Image source={require('../../assets/Icons/Tag.png')} style={styles.tagIcon}/>
+                <Image source={{uri: TagIconUrl}} style={styles.tagIcon}/>
             </View>
             <Text style={styles.likesText}>{likesCount} likes</Text>
             <Text style={styles.contentBody}>
